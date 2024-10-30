@@ -1,8 +1,13 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.14"
+  "name": "proj",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildTail" : "tailwindcss -i ./src/css/tailConfigCss.css -o ./src/css/main.css --watch"
   },
-  "scripts" : {
-    "buildTailwind" : "tailwindcss -i ./src/css/tailConfigCss.css -o ./src/css/main.css --watch"
-  }
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
